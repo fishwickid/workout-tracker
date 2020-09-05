@@ -13,7 +13,6 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// mongoose.set('bufferCommands', false);
 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost";
 
